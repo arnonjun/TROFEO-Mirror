@@ -1,0 +1,33 @@
+TROFEO Mirror v1.1 — Build APK ด้วย GitHub Actions
+
+สำคัญ: ให้อัปโหลด "เนื้อหาที่อยู่ในโฟลเดอร์ Android_App" เป็น root ของ Repository
+ที่หน้าแรกของ Repo ต้องมองเห็น:
+- app
+- .github
+- build.gradle.kts
+- settings.gradle.kts
+
+ขั้นตอน
+1. GitHub > New repository
+2. ตั้งชื่อ TROFEO-Mirror
+3. Create repository
+4. Add file > Upload files
+5. อัปโหลดเนื้อหาทั้งหมดภายในโฟลเดอร์ Android_App
+6. Commit changes
+7. เปิดแท็บ Actions
+8. เลือก Build TROFEO Mirror APK
+9. ถ้ายังไม่เริ่ม ให้ Run workflow > Run workflow
+10. เมื่อเครื่องหมายเป็นสีเขียว เปิดงาน Build
+11. ด้าน Artifacts ดาวน์โหลด TROFEO-Mirror-v1.1-APK
+12. แตก ZIP จะได้ app-debug.apk
+13. ส่ง/ดาวน์โหลด app-debug.apk ไป S25 แล้วติดตั้ง
+
+หลังติดตั้ง:
+- PC เปิด PC_Bridge/START_BRIDGE.bat
+- S25 และ PC อยู่เครือข่ายเดียวกัน
+- เปิด TROFEO Mirror
+- ใส่ IP ของ PC
+- START SCREEN MIRROR
+- Android ถามอนุญาตแชร์หน้าจอ ให้กด Start now
+- จากนั้นเปิดแอปวิดีโอ/เพลง
+- เสียงยังออกจาก S25 ตามปกติ
